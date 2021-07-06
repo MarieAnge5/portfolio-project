@@ -22,7 +22,7 @@
   .main h2 {
     font-size: 24px;
   }
-  .about-description {
+  .description-content {
     text-align: center;
     padding: 0;
   }
@@ -88,22 +88,16 @@ img {
   margin: 0 auto;
 }
 
-.project-description-one {
-  padding-right: 120px;
-}
-.project-description-two {
-  padding-left: 120px;
-}
-.about-description h1 {
+.description-content h1 {
   font-size: 60px;
   line-height: 80px;
 }
 
-.about-description h2 {
+.description-content h2 {
   font-size: 18px;
   font-family: "Playfair Display", serif;
 }
 
-.about-description {
+.description-content {
   padding: 160px 20px;
 }

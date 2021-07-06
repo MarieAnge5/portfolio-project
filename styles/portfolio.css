@@ -4,19 +4,27 @@
   --heading-font-family: "Playfair Display", serif;
 }
 
-@media (max-width: 960px) {
-  h1 {
-    font-size: 60px;
-  }
-  h2 {
+.main h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.main h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  line-height: 2;
+}
+
+@media (max-width: 900px) {
+  .main h1 {
     font-size: 44px;
+    line-height: 2;
   }
-  .project-description-one .project-description-two {
-    padding: 0;
+  .main h2 {
+    font-size: 24px;
+  }
+  .about-description {
     text-align: center;
-  }
-  .main {
-    padding: 80px 20px;
+    padding: 0;
   }
 }
 
@@ -47,15 +55,7 @@ p {
   margin: 0;
   color: var(--secondary-color);
 }
-.main h1 {
-  font-size: 76px;
-  font-weight: bold;
-}
-.main h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
-  line-height: 2;
-}
+
 .btn-branding {
   color: var(--primary-color);
   background: var(--secondary-color);
@@ -93,4 +93,17 @@ img {
 }
 .project-description-two {
   padding-left: 120px;
+}
+.about-description h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.about-description h2 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+
+.about-description {
+  padding: 160px 20px;
 }

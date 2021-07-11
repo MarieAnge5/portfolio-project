@@ -26,6 +26,9 @@
     text-align: center;
     padding: 0;
   }
+  h4 {
+    font-size: 26px;
+  }
 }
 
 body {
@@ -124,7 +127,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--secondary-color);
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 nav li.active a {
@@ -132,4 +135,37 @@ nav li.active a {
 }
 nav a:hover {
   color: purple;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: yellow;
+  padding: 30px 120px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+footer .email-link:hover {
+  text-decoration: underline;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background: white;
+  padding: 10px;
+  font-size: 26px;
+}
+footer .social-links a:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
